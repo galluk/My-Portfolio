@@ -19,7 +19,7 @@ This includes the use of valid, semantic HTML elements with personalised informa
 
 #### Initial interface
 <hr>
-![Screenshot of page](https://github.com/galluk/Homework_Week_1_LG/blob/master/assets/images/screenshot.png)
+![Screenshot of page](https://github.com/galluk/My-Portfolio/blob/master/Assets/images/screenshot1.png)
 
 #### ToDo
 Add a favicon and captions to the images. 
@@ -29,7 +29,7 @@ Add a favicon and captions to the images.
 GNU General Public License v3.0
 
 ### Link to the App
-<a href="https://github.com/galluk/Homework_Week_1_LG/blob/master/index.html">My Week 1 Homework</a><hr>
+<a href="https://github.com/galluk/My-Portfolio/blob/master/index.html">My Portfolio</a><hr>
 <hr>
 
 ## Authors
