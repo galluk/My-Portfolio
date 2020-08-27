@@ -1,100 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Contact Me</title>
+<!-- saved from url=(0072)file:///C:/Users/galla/CodingBootcamp/Homework/My-Portfolio/contact.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LG - Contact Me</title>
     <!-- get the meta tag for viewport scaling -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bring in the bootstrap CSS -->
-    <!-- We link our html to the Bootstrap CDN Content Delivery Network-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bring in the bootstrap CSS via the Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/main.css"/>
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/main.css">
   </head>
   <body>
     <!-- Container Div -->
     <div class="container">
-        <!-- set up nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- set up nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- My brand -->
+        <span class="navbar-brand" id="navbarHeading">Luke Gallagher</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- My brand -->
-            <span class="navbar-brand" id="navbar-heading" >Luke Gallagher</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Collapsible button -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <!-- The links of the navbar -->
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     
-            <!-- Collapsible button -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-    
-                <!-- The links of the navbar -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    
-    <!-- put main body in another container -->
-    <div class="container">
-      <div class="row"  id="rw-about-me">
+      <!-- main body -->
+      <div class="row" id="rwContentArea">
         <!-- col 1 -->
         <section class="col-md-8" id="mainSection">
           <h1>Contact</h1>
-          <hr />
+          <hr>
           <form>
             <div class="form-group">
-                <label for="txtName">Name</label>
-                <input type="text" class="form-control" id="txtName" placeholder="Name">
+              <label for="txtName"><strong>Name</strong></label>
+              <input type="text" class="form-control" id="txtName" placeholder="Name" required="">
             </div>
             <div class="form-group">
-              <label for="txtEmail">Email</label>
-              <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+              <label for="txtEmail"><strong>Email</strong></label>
+              <input type="email" class="form-control" id="txtEmail" placeholder="Email" required="">
+              <small id="emailHelp" class="form-text text-muted">I won't share your email with anyone else.</small>
             </div>
             <div class="form-group">
-              <label for="txtMessage">Message</label>
-              <textarea class="form-control" id="txtMessage" placeholder="Message" rows="3"></textarea>
+              <label for="txtMessage"><strong>Message</strong></label>
+              <textarea class="form-control" id="txtMessage" placeholder="Message" rows="3" required=""></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" id="btnSubmit">Submit</button>
+            <button type="submit" class="btn btn-primary" id="btnSubmit">
+              Submit
+            </button>
           </form>
         </section>
       </div>
-      <!-- end of top row -->
+      
+      <!-- footer -->
+      <hr id="footerLine">
+      <footer>&#169; Copyright</footer>
     </div>
 
-    <!-- put footer in another container -->
-    <div class="container">
-      <!-- each row has 1 col of 12 -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="d-flex" id="footer-line"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-            <!-- <div class="d-flex p-2" id="footer-box">&#169 Copyright</div> -->
-            <footer>&#169; Copyright</footer>
-        </div>
-      </div>
-      <!-- end of footer row -->
-    </div>
-  
-  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="./contact_files/jquery.min.js.download"></script>
 
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-  </body>
-</html>
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="./contact_files/bootstrap.min.js.download"></script>
+</body></html>

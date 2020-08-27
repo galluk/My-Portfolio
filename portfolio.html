@@ -1,91 +1,85 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My Portfolio</title>
+    <title>>LG - My Portfolio</title>
     <!-- get the meta tag for viewport scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bring in the bootstrap CSS -->
-    <!-- We link our html to the Bootstrap CDN Content Delivery Network-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bring in the bootstrap CSS via the Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/main.css"/>
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/main.css" />
   </head>
   <body>
     <!-- Container Div -->
     <div class="container">
-        <!-- set up nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- set up nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- My brand -->
+        <span class="navbar-brand" id="navbarHeading">Luke Gallagher</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-            <!-- My brand -->
-            <span class="navbar-brand" id="navbar-heading" >Luke Gallagher</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Collapsible button -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-    
-                <!-- The links of the navbar -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    
-    <!-- put main body in another container -->
-    <div class="container">
-      <div class="row"  id="rw-about-me">
+        <!-- Collapsible button -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <!-- The links of the navbar -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- main content row -->
+      <div class="row" id="rwContentArea">
         <!-- col 1 -->
-        <section class="col-md-9" id="mainSection">
+        <div class="col-md-8" id="mainSection">
           <h1>Portfolio</h1>
           <hr />
-          <img class="img img-thumbnail" id="myPicture1" alt="placeholder image" src="http://placehold.it/350x350" />
-          <img class="img img-thumbnail" id="myPicture2" alt="placeholder image" src="http://placehold.it/350x350" />
-          <img class="img img-thumbnail" id="myPicture3" alt="placeholder image" src="http://placehold.it/350x350" />
-          <img class="img img-thumbnail" id="myPicture4" alt="placeholder image" src="http://placehold.it/350x350" />
-          <img class="img img-thumbnail" id="myPicture5" alt="placeholder image" src="http://placehold.it/350x350" />
-
-        </section>
-      </div>
-      <!-- end of top row -->
-    </div>
-
-    <!-- put footer in another container -->
-    <div class="container">
-      <!-- each row has 1 col of 12 -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="d-flex" id="footer-line"></div>
+          <div class="row" id="rwPhotos1">
+            <div class="col-lg-6">
+              <img class="img img-thumbnail" id="myPicture1" alt="placeholder image1" src="http://placehold.it/350x350" />
+            </div>
+            <div class="col-lg-6">
+              <img class="img img-thumbnail" id="myPicture2" alt="placeholder image2" src="http://placehold.it/350x350" />
+            </div>
+          </div>
+          <div class="row" id="rwPhotos2">
+            <div class="col-lg-6">
+              <img class="img img-thumbnail" id="myPicture3" alt="placeholder image3" src="http://placehold.it/350x350" />
+            </div>
+            <div class="col-lg-6">
+              <img class="img img-thumbnail" id="myPicture4" alt="placeholder image4" src="http://placehold.it/350x350" />
+            </div>
+          </div>
+          <div class="row" id="rwPhotos3">
+            <div class="col-lg-6">
+              <img class="img img-thumbnail" id="myPicture5" alt="placeholder image5" src="http://placehold.it/350x350" />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-            <!-- <div class="d-flex p-2" id="footer-box">&#169 Copyright</div> -->
-            <footer>&#169; Copyright</footer>
-        </div>
-      </div>
-      <!-- end of footer row -->
+
+      <!-- footer -->
+      <hr id="footerLine" />
+      <footer>&#169; Copyright</footer>
     </div>
-  
-  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
