@@ -18,7 +18,6 @@ This includes the use of valid, semantic HTML elements with personalised informa
 * [VScode](https://code.visualstudio.com/) - The editor of choice
 
 #### Initial interface
-![Screenshot of page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot1.png)
 <hr>
 
 #### ToDo
