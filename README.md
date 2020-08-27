@@ -22,7 +22,6 @@ This includes the use of valid, semantic HTML elements with personalised informa
 ![Screenshot of Portfolio page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot2.png)
 ![Screenshot of Contact page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot3.png)
 
-<hr>
 #### ToDo
 Add a favicon and captions to the images. 
 
