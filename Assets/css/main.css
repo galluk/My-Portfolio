@@ -52,6 +52,8 @@ footer {
 #myPicture {
   float: left;
   border: none;
+  max-width: 200px;
+  max-height: 200px;
   padding: 0px 15px 15px 0px;
 }
 
@@ -113,5 +115,5 @@ footer {
 
   #rwContentArea {
     padding: 30px 15px 20px 15px;
-  
+  }
 }
