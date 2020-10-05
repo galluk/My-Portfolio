@@ -18,7 +18,9 @@ This includes the use of valid, semantic HTML elements with personalised informa
 * [VScode](https://code.visualstudio.com/) - The editor of choice
 
 #### Initial interface
-<hr>
+![Screenshot of About Me page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot1.png)
+![Screenshot of Portfolio page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot2.png)
+![Screenshot of Contact page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot3.png)
 
 #### ToDo
 Add a favicon and captions to the images. 
@@ -28,7 +30,7 @@ Add a favicon and captions to the images.
 GNU General Public License v3.0
 
 ### Link to the App
-<a href="https://galluk.github.io/My-Portfolio/index.html">My Portfolio</a><hr>
+<a href="https://galluk.github.io/My-Portfolio/index.html">My Portfolio</a>
 <hr>
 
 ## Authors
