@@ -13,7 +13,8 @@
 
     <!-- Bring in the bootstrap CSS via the Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/main.css" />
   </head>
@@ -51,26 +52,18 @@
       <!-- main body -->
       <div class="row" id="rwContentArea">
         <!-- col 1 -->
+        <section class="col-md-2"></section>
         <section class="col-md-8" id="mainSection">
           <h1>Contact</h1>
           <hr />
-          <form>
-            <div class="form-group">
-              <label for="txtName"><strong>Name</strong></label>
-              <input type="text" class="form-control" id="txtName" placeholder="Name" required="" />
-            </div>
-            <div class="form-group">
-              <label for="txtEmail"><strong>Email</strong></label>
-              <input type="email" class="form-control" id="txtEmail" placeholder="Email" required="" />
-              <small id="emailHelp" class="form-text text-muted">I won't share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="txtMessage"><strong>Message</strong></label>
-              <textarea class="form-control" id="txtMessage" placeholder="Message" rows="3" required=""></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" id="btnSubmit">Submit</button>
-          </form>
+          <p>Feel free to contact me:</p>
+          <p><i class="fas fa-phone" style="font-size: 16px"></i> 0466 413 252</p>
+          <p><i class="far fa-envelope" style="font-size: 16px"></i> <a href="mailto:luke.gallagher.cst@gmail.com">luke.gallagher.cst@gmail.com</a></p>
+          <p><i class="fab fa-github"></i> Check out my work on <a href="https://github.com/galluk">Github</a>.</p>
+          <p><i class="fab fa-linkedin"></i> I'm also on <a href="https://www.linkedin.com/in/luke-gallagher-36a22a1b9/">LinkedIn</a>.</p>
+          <p>You can peruse my resume <a href="./Assets/Files/LukeGallagher-resume.pdf" target="_blank">here</a>.</p>
         </section>
+        <section class="col-md-2"></section>
       </div>
 
       <!-- footer -->
@@ -79,9 +72,9 @@
     </div>
 
     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-    <script src="./contact_files/jquery.min.js.download"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-    <script src="./contact_files/bootstrap.min.js.download"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
