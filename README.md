@@ -19,8 +19,8 @@ This includes the use of valid, semantic HTML elements with personalised informa
 
 #### Initial interface
 ![Screenshot of About Me page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot1.png)
-![Screenshot of Portfolio page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot2.png)
-![Screenshot of Contact page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot3.png)
+![Screenshot of Portfolio page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/work-portfolio.jpg)
+![Screenshot of Contact page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/contact.jpg)
 
 #### ToDo
 Add a favicon and captions to the images. 
