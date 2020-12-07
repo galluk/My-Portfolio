@@ -18,10 +18,9 @@ This includes the use of valid, semantic HTML elements with personalised informa
 * [VScode](https://code.visualstudio.com/) - The editor of choice
 
 #### Initial interface
-![Screenshot of About Me page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot1.png)
-<img src="https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/work-portfolio.jpg" width="400" />
-![Screenshot of Portfolio page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/work-portfolio.jpg)
-![Screenshot of Contact page](https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/contact.jpg)
+<img src="https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/screenshot1.png" width="400" />
+<img src="https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/work-portfolio.jpg" width="600" />
+<img src="https://github.com/galluk/My-Portfolio/blob/master/Assets/Images/contact.jpg" width="400" />
 
 #### ToDo
 Add a favicon and captions to the images. 
